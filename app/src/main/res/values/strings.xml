@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Asia Bazar</string>
+    <string name="asia_bazaar_url">https://asiabazar.com.bd/allads</string>
+    <string name="text_refresh">REFRESH</string>
+    <string name="text_settings">SETTINGS</string>
+    <string name="alert_msg">No Internet Connection\n\nPlease check your internet connection and try again</string>
+    <string name="back_press">Press back again to exist</string>
+</resources>

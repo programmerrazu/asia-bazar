@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rl_iv_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#DA5F6A">
+
+        <ImageView
+            android:id="@+id/iv_wifi_off"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:padding="10dp" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_asia_bazaar_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/rl_iv_container"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/alert_msg"
+        android:textColor="#ff000000"
+        android:textSize="16sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_asia_bazaar_msg"
+        android:layout_marginTop="15dp"
+        android:paddingBottom="10dp">
+
+        <TextView
+            android:id="@+id/tv_refresh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/tv_internet_settings"
+            android:padding="10dp"
+            android:text="@string/text_refresh"
+            android:textColor="#ffff4444"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_internet_settings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:padding="10dp"
+            android:text="@string/text_settings"
+            android:textColor="#ff33b5e5"
+            android:textSize="16sp" />
+    </RelativeLayout>
+</RelativeLayout>
